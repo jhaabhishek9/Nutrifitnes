@@ -1,0 +1,20 @@
+{
+  "name": "Nutrifitness",
+  "domain": "nutrifitness.in.net",
+  "envVars": {
+    "NODE_ENV": "production",
+    "PORT": "8080"
+  },
+  "healthCheckPath": "/health",
+  "startCommand": "npm run start",
+  "buildCommand": "npm run build",
+  "idleTimeout": 60,
+  "dns": {
+    "nameservers": [
+      "dns1.bigrock.in",
+      "dns2.bigrock.in",
+      "dns3.bigrock.in",
+      "dns4.bigrock.in"
+    ]
+  }
+}
