@@ -1,0 +1,27 @@
+{
+  "domain": "nutrifitness.in.net",
+  "nameservers": [
+    "dns1.bigrock.in",
+    "dns2.bigrock.in",
+    "dns3.bigrock.in",
+    "dns4.bigrock.in"
+  ],
+  "records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "$DEPLOYMENT_IP",
+      "ttl": 3600
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "@",
+      "ttl": 3600
+    }
+  ],
+  "contactInfo": {
+    "email": "eshitapareek97@gmail.com",
+    "phone": "9824776980"
+  }
+}
